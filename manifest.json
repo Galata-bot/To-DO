@@ -1,145 +1,198 @@
 {
   "short_name": "To-Do",
-  "id": "to/do",
+  "name": "User Friend To-Do",
+  "description": "Simple and user friend task list app",
+  "id": "/To-Do/",
   "start_url": "/To-Do/",
   "scope": "/To-Do/",
-  "description": "Simple and user friend task list app",
-  "name": "User Friend To-Do",
+  "display": "standalone",
+  "orientation": "portrait",
   "theme_color": "#000000",
   "background_color": "#000000",
   "categories": [
     "books",
-    "navigation"
+    "navigation",
+    "productivity"
   ],
-  
   "icons": [
     {
-      "src": "android-launchericon-512-512.png",
-      "sizes": "512x512"
+      "src": "/To-Do/android-launchericon-512-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     },
     {
-      "src": "android-launchericon-192-192.png",
-      "sizes": "192x192"
+      "src": "/To-Do/android-launchericon-192-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
     },
     {
-      "src": "android-launchericon-144-144.png",
-      "sizes": "144x144"
+      "src": "/To-Do/android-launchericon-144-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
     },
     {
-      "src": "android-launchericon-96-96.png",
-      "sizes": "96x96"
+      "src": "/To-Do/android-launchericon-96-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
     },
     {
-      "src": "android-launchericon-72-72.png",
-      "sizes": "72x72"
+      "src": "/To-Do/android-launchericon-72-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
     },
     {
-      "src": "android-launchericon-48-48.png",
-      "sizes": "48x48"
+      "src": "/To-Do/android-launchericon-48-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
     },
     {
-      "src": "16.png",
-      "sizes": "16x16"
+      "src": "/To-Do/16.png",
+      "sizes": "16x16",
+      "type": "image/png"
     },
     {
-      "src": "20.png",
-      "sizes": "20x20"
+      "src": "/To-Do/20.png",
+      "sizes": "20x20",
+      "type": "image/png"
     },
     {
-      "src": "29.png",
-      "sizes": "29x29"
+      "src": "/To-Do/29.png",
+      "sizes": "29x29",
+      "type": "image/png"
     },
     {
-      "src": "32.png",
-      "sizes": "32x32"
+      "src": "/To-Do/32.png",
+      "sizes": "32x32",
+      "type": "image/png"
     },
     {
-      "src": "40.png",
-      "sizes": "40x40"
+      "src": "/To-Do/40.png",
+      "sizes": "40x40",
+      "type": "image/png"
     },
     {
-      "src": "50.png",
-      "sizes": "50x50"
+      "src": "/To-Do/50.png",
+      "sizes": "50x50",
+      "type": "image/png"
     },
     {
-      "src": "57.png",
-      "sizes": "57x57"
+      "src": "/To-Do/57.png",
+      "sizes": "57x57",
+      "type": "image/png"
     },
     {
-      "src": "58.png",
-      "sizes": "58x58"
+      "src": "/To-Do/58.png",
+      "sizes": "58x58",
+      "type": "image/png"
     },
     {
-      "src": "60.png",
-      "sizes": "60x60"
+      "src": "/To-Do/60.png",
+      "sizes": "60x60",
+      "type": "image/png"
     },
     {
-      "src": "64.png",
-      "sizes": "64x64"
+      "src": "/To-Do/64.png",
+      "sizes": "64x64",
+      "type": "image/png"
     },
     {
-      "src": "72.png",
-      "sizes": "72x72"
+      "src": "/To-Do/72.png",
+      "sizes": "72x72",
+      "type": "image/png"
     },
     {
-      "src": "76.png",
-      "sizes": "76x76"
+      "src": "/To-Do/76.png",
+      "sizes": "76x76",
+      "type": "image/png"
     },
     {
-      "src": "80.png",
-      "sizes": "80x80"
+      "src": "/To-Do/80.png",
+      "sizes": "80x80",
+      "type": "image/png"
     },
     {
-      "src": "87.png",
-      "sizes": "87x87"
+      "src": "/To-Do/87.png",
+      "sizes": "87x87",
+      "type": "image/png"
     },
     {
-      "src": "100.png",
-      "sizes": "100x100"
+      "src": "/To-Do/100.png",
+      "sizes": "100x100",
+      "type": "image/png"
     },
     {
-      "src": "114.png",
-      "sizes": "114x114"
+      "src": "/To-Do/114.png",
+      "sizes": "114x114",
+      "type": "image/png"
     },
     {
-      "src": "120.png",
-      "sizes": "120x120"
+      "src": "/To-Do/120.png",
+      "sizes": "120x120",
+      "type": "image/png"
     },
     {
-      "src": "128.png",
-      "sizes": "128x128"
+      "src": "/To-Do/128.png",
+      "sizes": "128x128",
+      "type": "image/png"
     },
     {
-      "src": "144.png",
-      "sizes": "144x144"
+      "src": "/To-Do/144.png",
+      "sizes": "144x144",
+      "type": "image/png"
     },
     {
-      "src": "152.png",
-      "sizes": "152x152"
+      "src": "/To-Do/152.png",
+      "sizes": "152x152",
+      "type": "image/png"
     },
     {
-      "src": "167.png",
-      "sizes": "167x167"
+      "src": "/To-Do/167.png",
+      "sizes": "167x167",
+      "type": "image/png"
     },
     {
-      "src": "180.png",
-      "sizes": "180x180"
+      "src": "/To-Do/180.png",
+      "sizes": "180x180",
+      "type": "image/png"
     },
     {
-      "src": "192.png",
-      "sizes": "192x192"
+      "src": "/To-Do/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
     },
     {
-      "src": "256.png",
-      "sizes": "256x256"
+      "src": "/To-Do/256.png",
+      "sizes": "256x256",
+      "type": "image/png"
     },
     {
-      "src": "512.png",
-      "sizes": "512x512"
+      "src": "/To-Do/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     },
     {
-      "src": "1024.png",
-      "sizes": "1024x1024"
+      "src": "/To-Do/1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "/To-Do/screenshot-desktop.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop screenshot"
+    },
+    {
+      "src": "/To-Do/screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile screenshot"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
 }

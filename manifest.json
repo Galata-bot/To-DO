@@ -1,7 +1,8 @@
 {
   "short_name": "To-Do",
   "id": "to/do",
-  "start_url": "/",
+  "start_url": "/To-Do/",
+  "scope": "/To-Do/",
   "description": "Simple and user friend task list app",
   "name": "User Friend To-Do",
   "theme_color": "#000000",

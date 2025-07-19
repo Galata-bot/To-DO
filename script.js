@@ -1,3 +1,115 @@
+// main.js
+
+// --- Existing code (if any) in main.js would go here ---
+// For example, if you had other DOM manipulation or app logic:
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOM fully loaded and parsed.');
+
+    // --- WebSocket Code Starts Here ---
+
+    const socketUrl = 'ws://localhost:8080'; // Replace with your WebSocket server URL
+
+    let socket; // Declare socket variable to be accessible globally or within a scope
+
+    function connectWebSocket() {
+        if (socket && socket.readyState === WebSocket.OPEN) {
+            console.log('WebSocket is already open.');
+            return;
+        }
+
+        socket = new WebSocket(socketUrl);
+
+        // Event listener for when the connection is established
+        socket.onopen = (event) => {
+            console.log('WebSocket connection established:', event);
+            // You can send a message to the server immediately after connecting
+            socket.send('Hello from client!');
+            updateStatus('Connected');
+        };
+
+        // Event listener for incoming messages from the server
+        socket.onmessage = (event) => {
+            console.log('Message from server:', event.data);
+            displayMessage('Server: ' + event.data);
+        };
+
+        // Event listener for when the connection is closed
+        socket.onclose = (event) => {
+            console.log('WebSocket connection closed:', event);
+            updateStatus('Disconnected');
+            // Optional: Attempt to reconnect after a delay
+            if (event.wasClean) {
+                console.log(`Connection closed cleanly, code=${event.code} reason=${event.reason}`);
+            } else {
+                // e.g. server process killed or network down
+                console.error('Connection died unexpectedly. Attempting to reconnect...');
+                setTimeout(connectWebSocket, 3000); // Try to reconnect after 3 seconds
+            }
+        };
+
+        // Event listener for errors
+        socket.onerror = (error) => {
+            console.error('WebSocket error:', error);
+            updateStatus('Error');
+        };
+    }
+
+    // Function to send a message (e.g., from an input field)
+    function sendMessage(message) {
+        if (socket && socket.readyState === WebSocket.OPEN) {
+            socket.send(message);
+            displayMessage('Client: ' + message);
+        } else {
+            console.warn('WebSocket is not open. Cannot send message.');
+            displayMessage('Error: Not connected to server.');
+        }
+    }
+
+    // --- Basic UI elements for demonstration ---
+    const messageInput = document.getElementById('messageInput');
+    const sendButton = document.getElementById('sendButton');
+    const messagesDiv = document.getElementById('messages');
+    const statusSpan = document.getElementById('status');
+    const connectButton = document.getElementById('connectButton');
+
+    if (sendButton) {
+        sendButton.addEventListener('click', () => {
+            const message = messageInput.value;
+            if (message) {
+                sendMessage(message);
+                messageInput.value = ''; // Clear input
+            }
+        });
+    }
+
+    if (connectButton) {
+        connectButton.addEventListener('click', connectWebSocket);
+    }
+
+    function displayMessage(msg) {
+        const p = document.createElement('p');
+        p.textContent = msg;
+        messagesDiv.appendChild(p);
+        messagesDiv.scrollTop = messagesDiv.scrollHeight; // Scroll to bottom
+    }
+
+    function updateStatus(status) {
+        statusSpan.textContent = status;
+        statusSpan.className = ''; // Clear previous classes
+        if (status === 'Connected') {
+            statusSpan.classList.add('connected');
+        } else if (status === 'Disconnected' || status === 'Error') {
+            statusSpan.classList.add('disconnected');
+        }
+    }
+
+    // Initial connection attempt when the page loads
+    connectWebSocket();
+
+    // --- WebSocket Code Ends Here ---
+
+});
+
 const contactOpen=document.querySelector('.contact-open');
 const contactInfo=document.querySelector('.contact-info');
 const themeToggle=document.querySelector('.theme-toggle');

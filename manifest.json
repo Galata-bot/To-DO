@@ -1,7 +1,7 @@
 {
   "name": "To-Do",
   "short_name": "To-Do",
-  "description": "Your Seemless Task Holder",
+  "description": "Your Seamless Task Manager for staying organized anytime—even offline.",
   "start_url": "/To-Do/",
   "scope": "/To-Do/",
   "id": "/ToDo/",

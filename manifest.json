@@ -4,7 +4,7 @@
   "description": "Your Seemless Task Holder",
   "start_url": "/To-Do/",
   "scope": "/To-Do/",
-  "id": "/To/Do/",
+  "id": "/ToDo/",
   "display": "fullscreen",
   "background_color": "#ffffff",
   "theme_color": "#1976d2",

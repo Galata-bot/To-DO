@@ -359,7 +359,7 @@ font-size:1.5rem;
     }
 
     main ul li button.done::after{
-content:url('g-icon-right.svg');
+content:url('/To-Do/g-icon-right.svg');
 position:absolute;
 width:25px;
 height:25px;;

@@ -5,6 +5,9 @@ if ('serviceWorker' in navigator) {
     .then(() => console.log('Service Worker registered!'))
     .catch(err => console.error('Service Worker error:', err));
 }
+window.addEventListener('load', () => {
+  document.getElementById('splash-screen').style.display = 'none';
+});
 
 
 const contactOpen=document.querySelector('.contact-open');

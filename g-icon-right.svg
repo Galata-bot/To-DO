@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="25"
+   height="25"
+   viewBox="0 0 6.6145833 6.6145833"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="g-icon-right.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showborder="false"
+     showguides="false"
+     inkscape:zoom="29.631821"
+     inkscape:cx="14.241447"
+     inkscape:cy="17.599324"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="powerstroke"
+       message=""
+       id="path-effect9"
+       is_visible="true"
+       lpeversion="1.3"
+       scale_width="1"
+       interpolator_type="CentripetalCatmullRom"
+       interpolator_beta="0.75"
+       start_linecap_type="round"
+       end_linecap_type="round"
+       offset_points="204.8,1.0714832"
+       linejoin_type="spiro"
+       miter_limit="4"
+       not_jump="true"
+       sort_points="true" />
+    <inkscape:path-effect
+       effect="simplify"
+       id="path-effect8"
+       is_visible="true"
+       lpeversion="1.3"
+       threshold="0.012"
+       steps="1"
+       smooth_angles="0"
+       helper_size="0"
+       simplify_individual_paths="false"
+       simplify_just_coalesce="false"
+       step="1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;fill-opacity:0.415008;stroke:none;stroke-width:7.55906;stroke-linejoin:bevel;paint-order:fill markers stroke"
+       d="m -142.00949,53.456046 103.942306,3.77972"
+       id="path6" />
+    <path
+       style="fill:#000000;fill-opacity:0.415008;stroke:none;stroke-width:7.55906;stroke-linejoin:bevel;paint-order:fill markers stroke"
+       d="m -142.00949,51.296205 h -0.41017"
+       id="path7" />
+    <path
+       style="fill:#000000;fill-opacity:0.415008;stroke:none;stroke-width:7.55906;stroke-linejoin:bevel;paint-order:fill markers stroke"
+       d="m -89.903349,54.265986 13.229021,35.637363"
+       id="path8" />
+    <path
+       id="path16"
+       style="fill:#0ca200;fill-opacity:1;stroke:none;stroke-width:2;stroke-linejoin:bevel;paint-order:fill markers stroke"
+       inkscape:transform-center-x="0.43132765"
+       inkscape:transform-center-y="-0.023016603"
+       d="M 5.3290107,1.5487966 2.8730534,4.004754 2.6411433,4.2366643 1.7625228,3.2873756 0.7515242,3.9329041 c 0.8144737,0.4501767 2.1078459,1.1443396 2.1288075,1.132739 l 6.21e-5,-6.2e-5 c 1.31e-5,-1.07e-5 8.44e-5,-9.96e-5 1.205e-4,-1.204e-4 h 6.2e-5 l 6.24e-5,-6.28e-5 -10e-8,-6.2e-5 2.9824205,-2.9824208 z" />
+  </g>
+</svg>

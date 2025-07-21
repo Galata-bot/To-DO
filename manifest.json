@@ -13,6 +13,30 @@
   "display": "fullscreen",
   "background_color": "#ffffff",
   "theme_color": "#1976d2",
+  "screenshots": [
+  {
+    "src": "screenshot1.png",
+    "sizes": "325x725",
+    "type": "image/png",
+    "label": "Main task view on mobile"
+  }
+],
+  "screenshots": [
+  {
+    "src": "screenshot2.png",
+    "sizes": "325x725",
+    "type": "image/png",
+    "label": "Main task view on mobile"
+  }
+],
+  "screenshots": [
+  {
+    "src": "screenshot3.png",
+    "sizes": "325x725",
+    "type": "image/png",
+    "label": "Main task view on mobile"
+  }
+],
   "icons": [
     {
       "src": "icon-192.png",

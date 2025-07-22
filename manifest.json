@@ -7,7 +7,7 @@
   "id": "/ToDo/",
   "launch_handler": "default",
   "launch_handler": {
-  "client_mode": "focus-existing"
+  "client_mode": "standalone"
 },
   "orientation": "portrait",
   "display": "fullscreen",
